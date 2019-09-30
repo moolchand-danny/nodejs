@@ -5,9 +5,8 @@ pipeline {
             args '-p 3000:3000'
         }
     }
-    tools {
-    nodejs 'node'
-  }
+    
+    tools {nodejs "node"}
   
     environment {
         CI = 'true'
