@@ -6,8 +6,8 @@ pipeline {
         }
     }
     
-    tools {nodejs "node"}
   
+    
     environment {
         CI = 'true'
     }
